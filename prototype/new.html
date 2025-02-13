@@ -1,0 +1,101 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Cadastro de Profissional
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+ </head>
+ <body class="bg-gray-100">
+  <header class="bg-blue-600 p-4">
+   <div class="container mx-auto">
+    <h1 class="text-white text-xl font-bold">
+     <i class="fas fa-map-marker-alt">
+     </i>
+     CityServices
+    </h1>
+   </div>
+  </header>
+  <main class="container mx-auto mt-10">
+   <div class="bg-white p-8 rounded-lg shadow-md max-w-lg mx-auto">
+    <h2 class="text-2xl font-bold mb-6">
+     Cadastro de Profissional
+    </h2>
+    <form>
+     <div class="mb-6">
+      <label class="block text-gray-700 font-bold mb-2">
+       Foto de Perfil
+      </label>
+      <div class="flex items-center">
+       <img alt="Placeholder for profile picture" class="w-24 h-24 rounded-full mr-4" height="100" src="https://storage.googleapis.com/a1aa/image/4VbKQ58dcpojabIdlvQPZaBp37doPiWxa7A3i6qiObI.jpg" width="100"/>
+       <div>
+        <p class="text-gray-600">
+         Adicione uma foto profissional
+        </p>
+        <p class="text-gray-600">
+         JPG ou PNG até 5MB
+        </p>
+       </div>
+      </div>
+     </div>
+     <div class="mb-4">
+      <label class="block text-gray-700 font-bold mb-2" for="nome">
+       Nome Completo
+      </label>
+      <input class="w-full px-3 py-2 border rounded-lg" id="nome" placeholder="Seu nome completo" type="text"/>
+     </div>
+     <div class="mb-4">
+      <label class="block text-gray-700 font-bold mb-2" for="profissao">
+       Profissão
+      </label>
+      <input class="w-full px-3 py-2 border rounded-lg" id="profissao" placeholder="Ex: Eletricista, Encanador" type="text"/>
+     </div>
+     <div class="mb-4">
+      <label class="block text-gray-700 font-bold mb-2" for="telefone">
+       Telefone
+      </label>
+      <input class="w-full px-3 py-2 border rounded-lg" id="telefone" placeholder="(00) 00000-0000" type="text"/>
+     </div>
+     <div class="mb-4">
+      <label class="block text-gray-700 font-bold mb-2" for="whatsapp">
+       WhatsApp
+      </label>
+      <input class="w-full px-3 py-2 border rounded-lg" id="whatsapp" placeholder="(00) 00000-0000" type="text"/>
+     </div>
+     <div class="mb-4">
+      <label class="block text-gray-700 font-bold mb-2" for="email">
+       E-mail
+      </label>
+      <input class="w-full px-3 py-2 border rounded-lg" id="email" placeholder="seu@email.com" type="email"/>
+     </div>
+     <div class="mb-4">
+      <label class="block text-gray-700 font-bold mb-2" for="bairro">
+       Bairro/Região de Atendimento
+      </label>
+      <input class="w-full px-3 py-2 border rounded-lg" id="bairro" placeholder="Ex: Centro, Vila Nova" type="text"/>
+     </div>
+     <div class="mb-4">
+      <label class="block text-gray-700 font-bold mb-2" for="descricao">
+       Descrição dos Serviços
+      </label>
+      <textarea class="w-full px-3 py-2 border rounded-lg" id="descricao" placeholder="Descreva os serviços que você oferece..." rows="4"></textarea>
+     </div>
+     <div class="mb-4">
+      <label class="block text-gray-700 font-bold mb-2" for="horario">
+       Horário de Atendimento
+      </label>
+      <input class="w-full px-3 py-2 border rounded-lg" id="horario" placeholder="Ex: Segunda a Sexta, 8h às 18h" type="text"/>
+     </div>
+     <div class="text-center">
+      <button class="bg-blue-600 text-white px-4 py-2 rounded-lg font-bold">
+       Cadastrar Serviço
+      </button>
+     </div>
+    </form>
+   </div>
+  </main>
+ </body>
+</html>
